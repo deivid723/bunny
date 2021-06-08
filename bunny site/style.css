@@ -1,0 +1,323 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cores {
+    color: #591D1D;
+    color: #D9D9D9;
+    color: #8C8C8C;
+    color: #595959;
+    color: #0D0D0D;
+}
+body {
+    background-color: #D9D9D9;
+}
+.body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa {
+    background-color: white;
+    width: 50%;
+    height: 95%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px #591d1d82;
+}
+.logo {
+    border-radius: 50%;
+    width: 50px;
+    border: #591D1D solid;
+    transition: 0.5s;
+}
+.logo:hover {
+    border: #9a1212 solid;
+}
+.logo2 {
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #595959;
+}
+
+.menu li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a {
+    color: #fff5f5;
+    text-decoration: none;
+    width: 125px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s linear;
+    border-radius: 5px;
+}
+.a:hover {
+    background-color: #591D1D;
+}
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+nav {
+    display: flex;
+    width: 100%;
+}
+header {
+    background-color: #595959;
+    padding: 10px;
+}
+footer {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px 5px 50px 5px;
+    border: #591D1D solid;
+    border-width: 5px 0px 5px 0px;
+    box-shadow: 0px 0px 10px #591d1d61;
+}
+.alinharlogo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+main {
+    padding: 20px;
+    
+}
+p {
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 5px;
+}
+h1 {
+    font-size: 1.7em;
+}
+@media (max-width: 1000px) {
+    .logo2 {
+        width: 90%;
+    }
+    .caixa {
+        width: 95%;
+    }
+    footer {
+        width: 84%;
+    }
+    .a {
+        margin: 5px;
+        font-size: 0.9em;
+        width: 110px;
+    }
+}
+.insta {
+    width: 50px;
+    opacity: 0.5;
+    transition: 0.5s;
+    border-radius: 20%;
+}
+.insta:hover {
+    opacity: 1;
+}
+.categ {
+    display: none;
+    position: fixed;
+    left: 150px;
+    background-color: #8C8C8C;
+    width: 200px;
+}
+.categ ul {
+    list-style: none;
+    border: black solid;
+    border-width: 0px 0px 1px 0px;
+}
+.categ ul li {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+    border-width: 1px 1px 0px 1px;
+    transition: 0.3s;
+}
+.categ ul li:hover {
+    background-color: #D9D9D9;
+}
+.amv {
+    width: 250px;
+    background-color: #fffde3;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.amv:hover {
+    background-color: #fff9a1;
+    cursor: pointer;
+}
+.amv1 {
+    width: 250px;
+    background-color: #fff1e3;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.amv1:hover {
+    background-color: #ffd0a1;
+    cursor: pointer;
+}
+.amv2 {
+    width: 250px;
+    background-color: #e3fff1;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.amv2:hover {
+    background-color: #a0ffd0;
+    cursor: pointer;
+}
+.amv3 {
+    width: 250px;
+    background-color: #e3f9ff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.amv3:hover {
+    background-color: #9ceaff;
+    cursor: pointer;
+}
+.vine2 {
+    width: 250px;
+    background-color: #fad9ff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.vine2:hover {
+    background-color: #f5b4ff;
+    cursor: pointer;
+}
+.vine {
+    width: 250px;
+    background-color: #ffe4d9;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.vine:hover {
+    background-color: #ffab8a;
+    cursor: pointer;
+}
+.vine1 {
+    width: 250px;
+    background-color: #e9d9ff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.vine1:hover {
+    background-color: #c79fff;
+    cursor: pointer;
+}
+.vine3 {
+    width: 250px;
+    background-color: #d9f4ff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.vine3:hover {
+    background-color: #8ddfff;
+    cursor: pointer;
+}
+.dance {
+    width: 250px;
+    background-color: #ffd9d9;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.dance:hover {
+    background-color: #ff8888;
+    cursor: pointer;
+}
+.diferente {
+    width: 250px;
+    background-color: #d9f0ff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #591d1d74;
+    margin: 10px;
+    transition: 0.3s linear;
+}
+.diferente:hover {
+    background-color: #91d3ff;
+    cursor: pointer;
+}
+.caixas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#top {
+    border-style: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #591D1D;
+    color: white;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    transition: 0.4s;
+    box-shadow: 0px 0px 10px #591d1d6b;
+    opacity: 0;
+}
+#top:hover {
+    background-color: #9a1212;
+    box-shadow: 0px 0px 20px #591d1dd4;
+}
+html {
+    scroll-behavior: smooth;
+}
+.caixas a {
+    text-decoration: none;
+    color: black;
+}
+body::-webkit-scrollbar {
+    width: 10px
+} 
+  
+body::-webkit-scrollbar-thumb {   
+background-color: #591D1D;   
+}
+body::-webkit-scrollbar-track {
+    background-color: #a38989;
+}
